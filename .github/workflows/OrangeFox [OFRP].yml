@@ -106,7 +106,7 @@ jobs:
         swap-size-gb: 12
         
     - name: install py-is-py2
-      run: sudo apt-get install python-is-python2
+      run: sudo apt-get install Python-is-Python3
 
     - name: Building recovery
       run: |
